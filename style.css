@@ -8,7 +8,7 @@
   --line: #24466f;
   --primary: #42d6ff;
   --primary-dark: #27a6d6;
-  --accent: #74f7c6;
+  --accent: #69b8ff;
   --max-width: 1160px;
   --radius: 16px;
   --radius-sm: 12px;
@@ -32,7 +32,7 @@ body {
   color: var(--text);
   background:
     radial-gradient(circle at 20% 0%, rgba(66, 214, 255, 0.2), transparent 45%),
-    radial-gradient(circle at 95% 5%, rgba(116, 247, 198, 0.16), transparent 35%),
+    radial-gradient(circle at 95% 5%, rgba(105, 184, 255, 0.18), transparent 35%),
     linear-gradient(160deg, var(--bg) 0%, #0b1a30 55%, #09182c 100%);
 }
 
