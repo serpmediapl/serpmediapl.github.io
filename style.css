@@ -109,26 +109,16 @@ a:hover {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.68rem;
   color: var(--text);
   font-weight: 700;
 }
 
-.brand-mark {
-  display: inline-grid;
-  place-items: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: linear-gradient(145deg, var(--primary), #8bf2ff);
-  color: #04131f;
-  font-size: 0.78rem;
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
-  font-weight: 700;
-}
-
-.brand-text {
-  font-size: 0.96rem;
+.brand-logo {
+  display: block;
+  width: auto;
+  max-width: min(360px, 36vw);
+  max-height: 64px;
+  height: auto;
 }
 
 .top-nav {
@@ -480,6 +470,11 @@ h1 {
   .top-nav {
     width: 100%;
     justify-content: flex-start;
+  }
+
+  .brand-logo {
+    max-width: min(320px, 78vw);
+    max-height: 56px;
   }
 
   .card-grid {
